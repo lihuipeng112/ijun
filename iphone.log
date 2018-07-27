@@ -1,0 +1,387 @@
+[connected]
+Mar 20 15:32:44 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:44 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:45 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/PassKitCore.framework'
+Mar 20 15:32:45 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/BulletinBoard.framework'
+Mar 20 15:32:45 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/LocationBundles/PassbookRelevancy.bundle'
+Mar 20 15:32:45 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/PassKitCore.framework'
+Mar 20 15:32:45 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client 'com.apple.Home'
+Mar 20 15:32:45 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:45 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:45 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:45 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:46 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/LocationBundles/Routine.bundle'
+Mar 20 15:32:46 I7 kernel(AppleProxDriver)[0] <Notice>: Dispatching proximity event [0x200]
+Mar 20 15:32:46 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:46 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:46 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Start [143:0x17438b600]
+Mar 20 15:32:46 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:46 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:46 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/LocationBundles/MagicalMoments.bundle'
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Ind MsgId=0xe006 Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe7(ELQM) Ind MsgId=0x0002 Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter(libBasebandManager.dylib)[74] <Notice>: #I Sending <private> to <private> at 1521531166505
+Mar 20 15:32:46 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageOnBodyDetection' received from client '/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter'
+Mar 20 15:32:46 I7 locationd[2602] <Notice>: Client /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter (0x1460fbe00) is unsubscribing to notification kCLConnectionMessageOnBodyDetection
+Mar 20 15:32:46 I7 locationd[2602] <Notice>: Client /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter disconnected
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: eLQM: Posting RRC change notification with label = kNotificationCellLinkStateChange, state = 0, bitmask = 2, info = {
+    Detail = 0;
+    State = 0;
+}
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: eLQM: Updated cell states (payload = <02020000 00>): (LQM = 100, RRC = 0, INTF = 1)
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: RRC State change
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: RRC Update to OFF. mach time: 5767638905597  <0x145e4c0f0> (NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:0)
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>:  _lastDisconnectTimestamp: 5767638905597
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: 0x145e4c0f0 foreground: 1 primary: 1 for noi: NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:0
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: 0x145e4c5a0 foreground: 1 primary: 1 for noi: NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:1
+Mar 20 15:32:46 I7 symptomsd(SymptomEvaluator)[120] <Notice>: New RRC 0 when previous 1 from pdp_ip0, epoch interface pdp_ip0
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x22(COEX) Ind MsgId=0x0021 Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x555b Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Ind MsgId=0x0001 Bin=['01 10 00 80 01 11 04 D5 09 01 00 04 00 18 01 00 01']
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Ind MsgId=0x0001 Bin=['01 10 00 80 01 03 04 88 08 01 00 04 00 18 01 00 01']
+Mar 20 15:32:46 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: handleWdsEventReportInd_sync: Received WDS Set Event Report Indications
+Mar 20 15:32:46 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: processWdsTlvDormancyStatus: Dormancy status: kDormancyStatusDormant
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.BBDriver: setDormancy: from false to true
+Mar 20 15:32:46 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I dor.QMIDormancyCommandDriver: operator()_block_invoke: EventReportInd, dormancy status: kDormant
+Mar 20 15:32:46 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: sendWdsGetCurrentDataBearerTechReq_sync: Getting current data bearer technology
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DormancyStatus event, success:true, status:kDormant
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Req MsgId=0x0044 Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Resp MsgId=0x0044 Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: sendWdsGetCurrentDataBearerTechReq_sync_block_invoke: Response to GetCurrentDataBearerTech received
+Mar 20 15:32:46 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: sendWdsGetCurrentDataBearerTechReq_sync_block_invoke: Data Bearer Technology status: current network (2) rat mask (32) service option mask (0)
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.BBDriver: notifyDataBearer: kDataWirelessTechnologyLTE: fDormancy true sending kRadioTransmitDCH(TxOff)
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I Firing event 'notifyClientsOfCSIEvent': with params= <private>
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x555b Bin=[<private>]
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:Bootstrap: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #N Add Frequency List Failed
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:iw5: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:Em: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:Provisioning: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 imagent(PersistentConnection)[62] <Notice>: 2018-03-20 15:32:46 +0800 imagent[62]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:AppleWirelessDiagnostics: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 nanoregistryd(PersistentConnection)[81] <Notice>: 2018-03-20 15:32:46 +0800 nanoregistryd[81]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:PushEmail: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:VVM: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:MMS: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:Internet: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:UT: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:WirelessModemTraffic: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:OTAActivation: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:WirelessModemAuthentication: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:InternalDataProbe: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:3GFaceTimeTraffic: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:Provisioning: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:DataTest: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:EmLoc: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:BootstrapRoamingInternetBypass: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:3GFaceTimeAuthentication: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:OMADM: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:OTAInternet: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:ZeroRated: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:46 +0800 UserEventAgent[22]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:46 +0800 UserEventAgent[22]: <PCInterfaceUsabilityMonitor: 0x1002aabd0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:46 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: <PCPersistentTimer: 0x1002e26b0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:46 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:46 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: <PCPersistentTimer: 0x1002e26b0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #I DATA.Connection:EntitlementTraffic: handleDCHState: restEvent: dch=0
+Mar 20 15:32:46 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:46 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: <PCPersistentTimer: 0x1002e26b0> Calculated minimum fire date [2018-03-20 16:29:27 +0800] (100%) with fire date [2018-03-20 16:29:27 +0800], start date [2018-03-20 15:29:27 +0800], minimum early fire proportion 0.45, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x555b Bin=[<private>]
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] NetworkLocationPurgeTimer: <PCPersistentTimer: 0x145ff8120> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] NetworkLocationPurgeTimer: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 CommCenter[74] <Notice>: #N Add Frequency List Failed
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] NetworkLocationPurgeTimer: <PCPersistentTimer: 0x145ff8120> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] NetworkLocationPurgeTimer: <PCPersistentTimer: 0x145ff8120> Calculated minimum fire date [2018-03-20 16:00:06 +0800] (100%) with fire date [2018-03-20 16:00:06 +0800], start date [2018-03-20 11:00:06 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CompassDatabaseDaemonClearBiasTimer: <PCPersistentTimer: 0x145e44c90> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CompassDatabaseDaemonClearBiasTimer: <PCPersistentTimer: 0x145e44c90> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CompassDatabaseDaemonClearBiasTimer: <PCPersistentTimer: 0x145e44c90> Calculated minimum fire date [2018-03-22 13:39:56 +0800] (90%) with fire date [2018-03-23 01:39:56 +0800], start date [2018-03-18 01:39:56 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] WifiAWDTimer: <PCPersistentTimer: 0x145fe0150> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] WifiAWDTimer: <PCPersistentTimer: 0x145fe0150> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] WifiAWDTimer: <PCPersistentTimer: 0x145fe0150> Calculated minimum fire date [2018-03-20 20:51:59 +0800] (100%) with fire date [2018-03-20 20:51:59 +0800], start date [2018-03-19 20:51:59 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: <PCPersistentTimer: 0x14740a600> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: <PCPersistentTimer: 0x14740a600> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: <PCPersistentTimer: 0x14740a600> Calculated minimum fire date [2018-03-20 16:24:11 +0800] (100%) with fire date [2018-03-20 16:24:11 +0800], start date [2018-03-20 15:24:11 +0800], minimum early fire proportion 0.75, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] FenceDownloadTimer: <PCPersistentTimer: 0x145fcdc40> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53]: <PCInterfaceUsabilityMonitor: 0x1744fe880> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x170cbc1a0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x170cbc1a0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x170cbc1a0> Calculated minimum fire date [2018-03-20 23:38:03 +0800] (99.0944%) with fire date [2018-03-20 23:45:03 +0800], start date [2018-03-20 10:52:03 +0800], minimum early fire proportion 0.990944, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53]: <PCInterfaceUsabilityMonitor: 0x1744fe880> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53] com.jzxx.qyjxxx: <PCPersistentTimer: 0x170cb06e0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53] com.jzxx.qyjxxx: <PCPersistentTimer: 0x170cb06e0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:46 +0800 SpringBoard[53] com.jzxx.qyjxxx: <PCPersistentTimer: 0x170cb06e0> Calculated minimum fire date [2018-03-20 15:55:00 +0800] (100%) with fire date [2018-03-20 15:55:00 +0800], start date [2018-03-20 15:26:29 +0800], minimum early fire proportion 1, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] FenceDownloadTimer: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] FenceDownloadTimer: <PCPersistentTimer: 0x145fcdc40> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] FenceDownloadTimer: Forcing timer alignment to fire date [2018-03-20 21:23:44 +0800]
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] FenceDownloadTimer: <PCPersistentTimer: 0x145fcdc40> Calculated minimum fire date [2018-03-20 21:23:44 +0800] (99.581%) with fire date [2018-03-20 21:26:45 +0800], start date [2018-03-20 09:26:45 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] HarvestPruneTimer: <PCPersistentTimer: 0x1470d9b80> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] HarvestPruneTimer: <PCPersistentTimer: 0x1470d9b80> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] HarvestPruneTimer: Forcing timer alignment to fire date [2018-03-20 21:23:44 +0800]
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] HarvestPruneTimer: <PCPersistentTimer: 0x1470d9b80> Calculated minimum fire date [2018-03-20 21:23:44 +0800] (95.1341%) with fire date [2018-03-20 22:16:17 +0800], start date [2018-03-20 04:16:17 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: <PCPersistentTimer: 0x145ff6cc0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: <PCPersistentTimer: 0x145ff6cc0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:46 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: <PCPersistentTimer: 0x145ff6cc0> Calculated minimum fire date [2018-03-20 15:36:27 +0800] (100%) with fire date [2018-03-20 15:36:27 +0800], start date [2018-03-20 15:31:27 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115]: <PCInterfaceUsabilityMonitor: 0x1003891a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: <PCPersistentTimer: 0x100371670> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:46 +0800 identityservicesd[47]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115]: <APSCourier: 0x10038ed50> <PCInterfaceMonitor: 0x100322fe0> interface radio hotness changed to NO
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115]: <APSCourier: 0x10031f400> <PCInterfaceMonitor: 0x100322fe0> interface radio hotness changed to NO
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115]: <APSTopicManager: 0x100451470> isPowerEfficientToSendFilter changed to NO
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: <PCPersistentTimer: 0x100371670> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: <PCPersistentTimer: 0x100371670> Calculated minimum fire date [2018-03-20 15:53:28 +0800] (100%) with fire date [2018-03-20 15:53:28 +0800], start date [2018-03-20 15:25:21 +0800], minimum early fire proportion 0, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115]: <PCInterfaceUsabilityMonitor: 0x1003891a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x100385dd0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x100385dd0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:46 +0800 apsd[115] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x100385dd0> Calculated minimum fire date [2018-03-20 23:39:26 +0800] (99.0944%) with fire date [2018-03-20 23:46:26 +0800], start date [2018-03-20 10:53:26 +0800], minimum early fire proportion 0.990944, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:46 +0800 identityservicesd[47]: <PCInterfaceUsabilityMonitor: 0x100777d90> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:46 +0800 identityservicesd[47] com.apple.identityservices.registration-hbi: <PCPersistentTimer: 0x1007993d0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:46 +0800 identityservicesd[47] com.apple.identityservices.registration-hbi: <PCPersistentTimer: 0x1007993d0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:46 +0800 identityservicesd[47] com.apple.identityservices.registration-hbi: <PCPersistentTimer: 0x1007993d0> Calculated minimum fire date [2018-04-14 18:10:24 +0800] (100%) with fire date [2018-04-14 18:10:24 +0800], start date [2018-03-18 14:33:20 +0800], minimum early fire proportion 1, power state detection supported: yes, in high power state: no
+Mar 20 15:32:46 I7 calaccessd(PersistentConnection)[140] <Notice>: 2018-03-20 15:32:46 +0800 calaccessd[140]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:46 +0800 DuetHeuristic-BM[91]: Interface manager: WWAN radio power level notification; DCH status changed to inactive
+Mar 20 15:32:46 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:46 +0800 DuetHeuristic-BM[91]: <PCInterfaceUsabilityMonitor: 0x100348d40> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:46 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:46 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: <PCPersistentTimer: 0x100246fe0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:46 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:46 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: Last system wake date (2018-03-20 09:19:09 +0800) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Mar 20 15:32:46 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:46 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: <PCPersistentTimer: 0x100246fe0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:46 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:46 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: <PCPersistentTimer: 0x100246fe0> Calculated minimum fire date [2018-03-20 15:40:28 +0800] (100%) with fire date [2018-03-20 15:40:28 +0800], start date [2018-03-20 15:29:03 +0800], minimum early fire proportion 0.875711, power state detection supported: yes, in high power state: no
+Mar 20 15:32:47 I7 UserEventAgent(ThermalMonitor)[22] <Notice>: <Notice> LSController: <private>, fraction 0.153630
+Mar 20 15:32:47 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/HomeKitDaemon.framework'
+Mar 20 15:32:47 I7 CommCenter[74] <Notice>: #I Got denied callback for cellular when cellular is allowed
+Mar 20 15:32:47 I7 CommCenter[74] <Notice>: #I Ignoring access denied callback for bundle id: <private>
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x04(QOS) Ind MsgId=0x0001 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIContext:0:QOSIPv4: handleQOSEventReportInd: start
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIContext:0:QOSIPv4: handleQOSEventReportInd: report: <private>
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.BBContextHelper.0: sendQosEventReport: sendQosEventReport
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I Firing event 'QoSEventReport': with params= <private>
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x22(COEX) Ind MsgId=0x0021 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Ind MsgId=0xe013 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I CDRX Indication: LTE with CDRX is false
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Ind MsgId=0xe006 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libBasebandManager.dylib)[74] <Notice>: #I Sending <private> to <private> at 1521531168548
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: Client /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter connected
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: no bundle ID or bundle path found - denying /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: getClientEffectiveRegistrationResult, /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter, , , CLClientRegistrationResult, kCLClientRegistrationResultFailedBlacklisted, CLCommonLocationServicesEnabled, 1
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: no bundle ID or bundle path found - denying /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: getClientEffectiveRegistrationResult, /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter, , , CLClientRegistrationResult, kCLClientRegistrationResultFailedBlacklisted, CLCommonLocationServicesEnabled, 1
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageOnBodyDetectionParams' received from client '/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter'
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageOnBodyDetection' received from client '/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter'
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: Client /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter (0x146817a00) is subscribing to notification kCLConnectionMessageOnBodyDetection
+Mar 20 15:32:48 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter'
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe7(ELQM) Ind MsgId=0x0002 Bin=[<private>]
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: eLQM: Posting RRC change notification with label = kNotificationCellLinkStateChange, state = 1, bitmask = 2, info = {
+    Detail = 0;
+    State = 1;
+}
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: eLQM: Updated cell states (payload = <02020001 00>): (LQM = 100, RRC = 1, INTF = 1)
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: RRC State change
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: 0x145e4c0f0 foreground: 1 primary: 1 for noi: NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:0
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: RRC Update to ON. mach time: 5767689375521  <0x145e4c0f0> (NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:0)
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>:  _startConnectionTimestamp: 5767689375521
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: 0x145e4c0f0 foreground: 1 primary: 1 for noi: NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:0
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: 0x145e4c5a0 foreground: 1 primary: 1 for noi: NOI: v:0 type:Cell, isAny:yes, isBuiltin:no, loi:-1, flags:1
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: 0x145e4d460 foreground: 1 primary: 1 for noi: NOI: v:0 type:Cell, isAny:no, isBuiltin:yes, loi:0, flags:0
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Ind MsgId=0xe013 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I CDRX Indication: LTE with CDRX is true
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Ind MsgId=0x0001 Bin=['01 10 00 80 01 11 04 D6 09 01 00 04 00 18 01 00 02']
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I dor.QMIDormancyCommandDriver: operator()_block_invoke: EventReportInd, dormancy status: kActive
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DormancyStatus event, success:true, status:kActive
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Ind MsgId=0x0001 Bin=['01 10 00 80 01 03 04 89 08 01 00 04 00 18 01 00 02']
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: handleWdsEventReportInd_sync: Received WDS Set Event Report Indications
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: processWdsTlvDormancyStatus: Dormancy status: kDormancyStatusActive
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.BBDriver: setDormancy: from true to false
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: sendWdsGetCurrentDataBearerTechReq_sync: Getting current data bearer technology
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Req MsgId=0x0044 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x04(QOS) Ind MsgId=0x0001 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIContext:0:QOSIPv4: handleQOSEventReportInd: start
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIContext:0:QOSIPv4: handleQOSEventReportInd: report: <private>
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.BBContextHelper.0: sendQosEventReport: sendQosEventReport
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I Firing event 'QoSEventReport': with params= <private>
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x555b Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0x01(WDS) Resp MsgId=0x0044 Bin=[<private>]
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #N Add Frequency List Failed
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: sendWdsGetCurrentDataBearerTechReq_sync_block_invoke: Response to GetCurrentDataBearerTech received
+Mar 20 15:32:48 I7 CommCenter(libCommCenterMCommandDrivers.dylib)[74] <Notice>: #I DATA.QMIDriver:CMD: sendWdsGetCurrentDataBearerTechReq_sync_block_invoke: Data Bearer Technology status: current network (2) rat mask (32) service option mask (0)
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.BBDriver: notifyDataBearer: kDataWirelessTechnologyLTE: fDormancy false sending kRadioTransmitDCH(TxOn)
+Mar 20 15:32:48 I7 kernel(AppleProxDriver)[0] <Notice>: Dispatching proximity event [0x0]
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I Firing event 'notifyClientsOfCSIEvent': with params= <private>
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:Bootstrap: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:iw5: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:Em: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:Provisioning: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:AppleWirelessDiagnostics: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:PushEmail: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:VVM: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:MMS: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:Internet: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:UT: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:WirelessModemTraffic: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:OTAActivation: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:WirelessModemAuthentication: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:InternalDataProbe: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:3GFaceTimeTraffic: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:Provisioning: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:DataTest: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:EmLoc: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:BootstrapRoamingInternetBypass: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:3GFaceTimeAuthentication: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:OMADM: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:OTAInternet: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:ZeroRated: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 CommCenter[74] <Notice>: #I DATA.Connection:EntitlementTraffic: handleDCHState: restEvent: dch=1
+Mar 20 15:32:48 I7 nanoregistryd(PersistentConnection)[81] <Notice>: 2018-03-20 15:32:48 +0800 nanoregistryd[81]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:48 +0800 UserEventAgent[22]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:48 +0800 UserEventAgent[22]: <PCInterfaceUsabilityMonitor: 0x1002aabd0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:48 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: <PCPersistentTimer: 0x1002e26b0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:48 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: <PCPersistentTimer: 0x1002e26b0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 UserEventAgent(PersistentConnection)[22] <Notice>: 2018-03-20 15:32:48 +0800 UserEventAgent[22] BTA-PeriodicConditionMonitor: <PCPersistentTimer: 0x1002e26b0> Calculated minimum fire date [2018-03-20 16:29:27 +0800] (100%) with fire date [2018-03-20 16:29:27 +0800], start date [2018-03-20 15:29:27 +0800], minimum early fire proportion 0.45, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] NetworkLocationPurgeTimer: <PCPersistentTimer: 0x145ff8120> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] NetworkLocationPurgeTimer: <PCPersistentTimer: 0x145ff8120> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] NetworkLocationPurgeTimer: <PCPersistentTimer: 0x145ff8120> Calculated minimum fire date [2018-03-20 16:00:06 +0800] (100%) with fire date [2018-03-20 16:00:06 +0800], start date [2018-03-20 11:00:06 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] CompassDatabaseDaemonClearBiasTimer: <PCPersistentTimer: 0x145e44c90> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] CompassDatabaseDaemonClearBiasTimer: <PCPersistentTimer: 0x145e44c90> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] CompassDatabaseDaemonClearBiasTimer: <PCPersistentTimer: 0x145e44c90> Calculated minimum fire date [2018-03-22 13:39:56 +0800] (90%) with fire date [2018-03-23 01:39:56 +0800], start date [2018-03-18 01:39:56 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] WifiAWDTimer: <PCPersistentTimer: 0x145fe0150> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] WifiAWDTimer: <PCPersistentTimer: 0x145fe0150> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] WifiAWDTimer: <PCPersistentTimer: 0x145fe0150> Calculated minimum fire date [2018-03-20 20:51:59 +0800] (100%) with fire date [2018-03-20 20:51:59 +0800], start date [2018-03-19 20:51:59 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: <PCPersistentTimer: 0x14740a600> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: <PCPersistentTimer: 0x14740a600> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] TimeZoneManager.ActiveModeTimer: <PCPersistentTimer: 0x14740a600> Calculated minimum fire date [2018-03-20 16:24:11 +0800] (100%) with fire date [2018-03-20 16:24:11 +0800], start date [2018-03-20 15:24:11 +0800], minimum early fire proportion 0.75, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] FenceDownloadTimer: <PCPersistentTimer: 0x145fcdc40> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] FenceDownloadTimer: <PCPersistentTimer: 0x145fcdc40> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] FenceDownloadTimer: Forcing timer alignment to fire date [2018-03-20 21:23:44 +0800]
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] FenceDownloadTimer: <PCPersistentTimer: 0x145fcdc40> Calculated minimum fire date [2018-03-20 21:23:44 +0800] (99.581%) with fire date [2018-03-20 21:26:45 +0800], start date [2018-03-20 09:26:45 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] HarvestPruneTimer: <PCPersistentTimer: 0x1470d9b80> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] HarvestPruneTimer: <PCPersistentTimer: 0x1470d9b80> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] HarvestPruneTimer: Forcing timer alignment to fire date [2018-03-20 21:23:44 +0800]
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] HarvestPruneTimer: <PCPersistentTimer: 0x1470d9b80> Calculated minimum fire date [2018-03-20 21:23:44 +0800] (95.1341%) with fire date [2018-03-20 22:16:17 +0800], start date [2018-03-20 04:16:17 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602]: <PCInterfaceUsabilityMonitor: 0x145df12a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: <PCPersistentTimer: 0x145ff6cc0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: <PCPersistentTimer: 0x145ff6cc0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 locationd(PersistentConnection)[2602] <Notice>: 2018-03-20 15:32:48 +0800 locationd[2602] CellLocDelayedCellLocationPropagationTimer: <PCPersistentTimer: 0x145ff6cc0> Calculated minimum fire date [2018-03-20 15:36:27 +0800] (100%) with fire date [2018-03-20 15:36:27 +0800], start date [2018-03-20 15:31:27 +0800], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115]: <PCInterfaceUsabilityMonitor: 0x1003891a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: <PCPersistentTimer: 0x100371670> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115]: <APSCourier: 0x10038ed50> <PCInterfaceMonitor: 0x100322fe0> interface radio hotness changed to YES
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115]: <APSCourier: 0x10031f400> <PCInterfaceMonitor: 0x100322fe0> interface radio hotness changed to YES
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115]: <APSTopicManager: 0x100451470> isPowerEfficientToSendFilter changed to YES
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: <PCPersistentTimer: 0x100371670> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115] com.apple.apsd(push.apple.com)-WWAN: <PCPersistentTimer: 0x100371670> Calculated minimum fire date [2018-03-20 15:53:28 +0800] (100%) with fire date [2018-03-20 15:53:28 +0800], start date [2018-03-20 15:25:21 +0800], minimum early fire proportion 0, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115]: <PCInterfaceUsabilityMonitor: 0x1003891a0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x100385dd0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x100385dd0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 apsd(PersistentConnection)[115] <Notice>: 2018-03-20 15:32:48 +0800 apsd[115] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x100385dd0> Calculated minimum fire date [2018-03-20 23:39:26 +0800] (99.0944%) with fire date [2018-03-20 23:46:26 +0800], start date [2018-03-20 10:53:26 +0800], minimum early fire proportion 0.990944, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:48 +0800 identityservicesd[47]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:48 +0800 identityservicesd[47]: <PCInterfaceUsabilityMonitor: 0x100777d90> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:48 +0800 identityservicesd[47] com.apple.identityservices.registration-hbi: <PCPersistentTimer: 0x1007993d0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:48 +0800 identityservicesd[47] com.apple.identityservices.registration-hbi: <PCPersistentTimer: 0x1007993d0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 identityservicesd(PersistentConnection)[47] <Notice>: 2018-03-20 15:32:48 +0800 identityservicesd[47] com.apple.identityservices.registration-hbi: <PCPersistentTimer: 0x1007993d0> Calculated minimum fire date [2018-04-14 18:10:24 +0800] (100%) with fire date [2018-04-14 18:10:24 +0800], start date [2018-03-18 14:33:20 +0800], minimum early fire proportion 1, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 calaccessd(PersistentConnection)[140] <Notice>: 2018-03-20 15:32:48 +0800 calaccessd[140]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:48 +0800 DuetHeuristic-BM[91]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:48 +0800 DuetHeuristic-BM[91]: <PCInterfaceUsabilityMonitor: 0x100348d40> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:48 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: <PCPersistentTimer: 0x100246fe0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:48 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: <PCPersistentTimer: 0x100246fe0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 DuetHeuristic-BM(PersistentConnection)[91] <Notice>: 2018-03-20 15:32:48 +0800 DuetHeuristic-BM[91] com.apple.Duet.DuetActivityScheduler.ActivityEvaluationTimer: <PCPersistentTimer: 0x100246fe0> Calculated minimum fire date [2018-03-20 15:40:28 +0800] (100%) with fire date [2018-03-20 15:40:28 +0800], start date [2018-03-20 15:29:03 +0800], minimum early fire proportion 0.875711, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 imagent(PersistentConnection)[62] <Notice>: 2018-03-20 15:32:48 +0800 imagent[62]: Interface manager: WWAN radio power level notification; DCH status changed to active
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53]: <PCInterfaceUsabilityMonitor: 0x1744fe880> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x170cbc1a0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x170cbc1a0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53] com.apple.Duet.APLSScheduler: <PCPersistentTimer: 0x170cbc1a0> Calculated minimum fire date [2018-03-20 23:38:03 +0800] (99.0944%) with fire date [2018-03-20 23:45:03 +0800], start date [2018-03-20 10:52:03 +0800], minimum early fire proportion 0.990944, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53]: <PCInterfaceUsabilityMonitor: 0x1744fe880> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53] com.jzxx.qyjxxx: <PCPersistentTimer: 0x170cb06e0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53] com.jzxx.qyjxxx: <PCPersistentTimer: 0x170cb06e0> Device is plugged in, overriding earlyFireProportion to be 1.0
+Mar 20 15:32:48 I7 SpringBoard(PersistentConnection)[53] <Notice>: 2018-03-20 15:32:48 +0800 SpringBoard[53] com.jzxx.qyjxxx: <PCPersistentTimer: 0x170cb06e0> Calculated minimum fire date [2018-03-20 15:55:00 +0800] (100%) with fire date [2018-03-20 15:55:00 +0800], start date [2018-03-20 15:26:29 +0800], minimum early fire proportion 1, power state detection supported: yes, in high power state: yes
+Mar 20 15:32:48 I7 symptomsd(SymptomEvaluator)[120] <Notice>: New RRC 1 when previous 0 from pdp_ip0, epoch interface pdp_ip0
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Event [143:0x17438b600]: 1 Err(0)
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Connected [143:0x17438b600]: Err(0)
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore[3462] <Notice>: \M-e\M^H\M^[\M-e\M-;\M-:\M-h\M-.\M-"\M-e\M^M\M^U\M-f\M^U\M-0\M-f\M^M\M-.
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore[3462] <Notice>: \M-e\M^H\M^[\M-e\M-;\M-:\M-h\M-.\M->\M-e\M-$\M^G\M-d\M-?\M-!\M-f\M^A\M-/
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore[3462] <Notice>: gameChannelId = 104400
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore[3462] <Notice>: \M-e\M^H\M^[\M-e\M-;\M-:\M-g\M--\M->\M-e\M^P\M^M\M-d\M-?\M-!\M-f\M^A\M-/
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore[3462] <Notice>: https://agent.ijunhai.com/pay/orderApi
+Mar 20 15:32:48 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Start [144:0x1703968c0]
+Mar 20 15:32:49 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:49 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Event [144:0x1703968c0]: 1 Err(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Connected [144:0x1703968c0]: Err(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC Enabling TLS [144:0x1703968c0]
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Event [144:0x1703968c0]: 2, Pending(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Event [144:0x1703968c0]: 11, Pending(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Event [144:0x1703968c0]: 12, Pending(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Event [144:0x1703968c0]: 14, Pending(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Trust Result [144:0x1703968c0]: 0
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Event [144:0x1703968c0]: 20, Pending(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Event [144:0x1703968c0]: 8 Err(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TLS Handshake Complete [144:0x1703968c0]
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore[3462] <Notice>: ------------\M-h\M-/\M-7\M-f\M-1\M^B\M-e\M^P\M^[\M-f\M-5\M-7\M-g\M^K\M-,\M-d\M-;\M-#\M-f\M^\\M^M\M-e\M^J\M-!\M-e\M^Y\M-(\M-d\M-8\M^K\M-e\M^M\M^U\M-f\M^H\M^P\M-e\M^J\M^_--------------
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore[3462] <Notice>: {
+    content = "{\134"order_sn\134":\134"2018032077376940048\134",\134"notify_url\134":\134"http:\134\134/\134\134/agent.ijunhai.com\134\134/pay\134\134/payFinish\134\134/game_channel_id\134\134/104400\134\134/game_id\134\134/146\134"}";
+    msg = "";
+    ret = 1;
+}
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore[3462] <Notice>: order_sn:2018032077376940048
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore[3462] <Notice>: notify_url:http://agent.ijunhai.com/pay/payFinish/game_channel_id/104400/game_id/146
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore[3462] <Notice>: serverPaymentInfo:0x1746aa8c0
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore[3462] <Notice>: 60\M-e\M^E\M^C\M-e\M-.\M^]
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Start [145:0x17419f620]
+Mar 20 15:32:49 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:49 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:49 I7 CommCenter[74] <Notice>: #I Got denied callback for cellular when cellular is allowed
+Mar 20 15:32:49 I7 CommCenter[74] <Notice>: #I Ignoring access denied callback for bundle id: <private>
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Event [145:0x17419f620]: 1 Err(0)
+Mar 20 15:32:49 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Connected [145:0x17419f620]: Err(0)
+Mar 20 15:32:49 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/CoreParsec.framework'
+Mar 20 15:32:49 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TCP Conn Start [1809:0x1344da780]
+Mar 20 15:32:50 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/AssistantServices.framework'
+Mar 20 15:32:50 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/PrivateFrameworks/FMF.framework'
+Mar 20 15:32:50 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TCP Conn Event [1809:0x1344da780]: 1 Err(0)
+Mar 20 15:32:50 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TCP Conn Connected [1809:0x1344da780]: Err(0)
+Mar 20 15:32:50 I7 itunesstored(CFNetwork)[111] <Notice>: TIC Enabling TLS [1809:0x1344da780]
+Mar 20 15:32:50 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Cancel [144:0x1703968c0]
+Mar 20 15:32:50 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Cancel [143:0x17438b600]
+Mar 20 15:32:50 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:50 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:50 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TLS Event [1809:0x1344da780]: 2, Pending(0)
+Mar 20 15:32:50 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TLS Event [1809:0x1344da780]: 11, Pending(0)
+Mar 20 15:32:51 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TLS Event [1809:0x1344da780]: 14, Pending(0)
+Mar 20 15:32:51 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TLS Trust Result [1809:0x1344da780]: 0
+Mar 20 15:32:51 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TLS Event [1809:0x1344da780]: 20, Pending(0)
+Mar 20 15:32:51 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TCP Conn Event [1809:0x1344da780]: 8 Err(0)
+Mar 20 15:32:51 I7 itunesstored(CFNetwork)[111] <Notice>: TIC TLS Handshake Complete [1809:0x1344da780]
+Mar 20 15:32:51 I7 ymsj_songshu30_appstore(CFNetwork)[3462] <Notice>: TIC TCP Conn Cancel [145:0x17419f620]
+Mar 20 15:32:52 I7 UserEventAgent(ThermalMonitor)[22] <Notice>: <Notice> LSController: <private>, fraction 0.193135
+Mar 20 15:32:52 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client 'com.apple.HealthKit'
+Mar 20 15:32:52 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/LocationBundles/RemindersAlerts.bundle'
+Mar 20 15:32:52 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client '/System/Library/LocationBundles/CalendarLocation.bundle'
+Mar 20 15:32:52 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:52 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:52 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:52 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client 'com.apple.HealthKit'
+Mar 20 15:32:52 I7 locationd[2602] <Notice>: message 'kCLConnectionMessageWatchdog' received from client 'com.apple.HealthKit'
+Mar 20 15:32:52 I7 CommCenter(libATCommandStudioDynamic.dylib)[74] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe002 Bin=[<private>]
+Mar 20 15:32:53 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:53 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:53 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:53 I7 testmanagerd[3253] <Notice>: <private>
+Mar 20 15:32:53 I7 testmanagerd[3253] <Notice>: <private>

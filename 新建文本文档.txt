@@ -1,0 +1,28 @@
+url = 'http://game.data.ijunhai.com/Mirana/Api/autoTest?game_id=146&channel_id=2050&device_id=E062161B-8DD5-4C51-8C61-720CBC29724C&time=2018-03-07&game_channel_id=104044'
+url1 = 'http://game.data.ijunhai.com/Mirana/Api/autoTest?game_id=146&channel_id=10447&device_id=ffffffff-98a0-a82a-adcc-64ce0033c587&time=2018-03-07&game_channel_id=104308'
+
+
+def test1(url1):
+    re = requests.get(url1)
+    print(re.status_code)
+    print(re.text)
+
+    hjson = json.loads(re.text)
+
+    content = hjson['content']
+    print(content)
+    order = content['order']
+    print(order)
+    order_content = order['content']
+    if order_content == None:
+        print(order['msg'])
+        print('没有订单')
+    else:
+        print(order_content['order_sn'])
+
+ymsj_songshu16_appstore_dev_v1.0.0_110_20180208_1.ipa
+
+select * from xuqiu_list l,xuqiu x,task t,device d where  l.apk <>'' and l.apk = t.apk and x.id=l.xuqiu_id and x.state=1 and l.state='已提测' and t.a_state in ('ready','again') and l.x_state=1 and l.appstore_id<>'' and d.device=t.device and d.is_lock=0
+
+
+select l.appstore_id from xuqiu_list l,xuqiu x,task t,device d where t.appstore_id=l.appstore_id and x.id=l.xuqiu_id and x.state=1 and l.state='已提测' and t.a_state in ('ready','again') and l.x_state=1 and l.appstore_id<>'' and d.device=t.device and d.is_lock=0
